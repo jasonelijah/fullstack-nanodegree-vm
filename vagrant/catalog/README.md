@@ -17,6 +17,7 @@ This is a Video Game Item Catalog application made with Flask. It includes a few
 1. Clone the [fullstack-nanodegree-vm repository](https://github.com/udacity/fullstack-nanodegree-vm).
 
 2. Look for the *catalog* folder and replace it with the contents of this respository.
+   (https://github.com/jasonelijah/fullstack-nanodegree-vm/tree/master/vagrant/catalog)
 
 ## Usage
 
