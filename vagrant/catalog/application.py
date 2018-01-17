@@ -24,7 +24,10 @@ CLIENT_ID = json.loads(open('client_secrets.json', 'r').read())[
     'web']['client_id']
 
 # Connect to Database
-engine = create_engine('sqlite:///gamelibrarywithusers.db')
+#engine = create_engine('sqlite:///gamelibrarywithusers.db')
+#Base.metadata.bind = engine
+
+engine = create_engine('postgresql:///gamelibrarywithusers.db')
 Base.metadata.bind = engine
 
 # Create database session
